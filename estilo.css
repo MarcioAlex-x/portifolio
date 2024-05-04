@@ -7,12 +7,23 @@
 a{
     text-decoration: none;
 }
+.redes{
+    color: #FFB436;
+    transition: .5s;
+}
+.redes:hover{
+    color: #7f21c2;
+}
 :root{
     --cor1:#A529FF;
     --cor2: #FFB436;
     --cor3: #221BFF;
     --cor4: #E3FF03;
     --cor5:#0F86FF;
+}
+
+h1, h2{
+    color: #7f21c2;
 }
 
 #topo{
@@ -40,7 +51,7 @@ a{
     color: black;
     text-decoration: none;
 }
-.formulario .btn{
+.formulario .btn, .site-container .btn{
     background-color: #A529FF;
     color: aliceblue;
 }

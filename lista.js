@@ -17,15 +17,17 @@ function criarElementos() {
         iframe.src = site.url;
         iframe.setAttribute('frameborder', '0');
         iframe.setAttribute('allowfullscreen', '');
+        iframe.classList.add('rounded')
 
         //Criar elemento H3
         const title = document.createElement('h3')
+        title.classList.add('my-4')
         title.textContent = site.title
 
         const link = document.createElement('a');
         link.href = site.url;
         link.classList.add('btn')
-        link.classList.add('btn-primary')
+        // link.classList.add('btn-primary')
         link.setAttribute('target', '_blank'); // Abrir em uma nova aba
         link.textContent = 'VIsite o site!';
     
@@ -45,6 +47,8 @@ function criarElementos() {
         
         // Adicionar o containerSite à lista de sites
         listaSites.appendChild(containerSite);
+        containerSite.classList.add('shadow')
+        containerSite.classList.add('p-4')
     });
 }
 
