@@ -3,7 +3,7 @@ const listaSites = document.querySelector('.lista-sites')
 const sites = [
     {title:'Meu Boleto',url:'https://meuboleto.netlify.app/',desc:'Suporte às consultoras de venda da Natura'},
     {title:'Criativo Web',url:'https://criativoweb.netlify.app' , desc: 'Agência de criação de sites'},
-    {title:'Conculta CEP',url:'https://cepvanilla.netlify.app/', desc:'Busca de endereços por CEP'},
+    {title:'Consulta CEP',url:'https://cepvanilla.netlify.app/', desc:'Busca de endereços por CEP'},
     {title:'Assitência Técnica',url:'https://resetcell.netlify.app/', desc:'Assitência técnica de manutenção de aparelhos móveis'},
     {title:'Sorteador',url:'https://sorteador-grunt-alpha-blue.vercel.app/', desc:'Sorteador - Site criado para fins de estudo do curso de Engenheiro Fron-End EBAC'},
     {title:'Repositório',url:'https://alexfreitas.vercel.app/', desc:'Portifólio desenvolvido com a API do Github'},
