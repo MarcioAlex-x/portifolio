@@ -88,6 +88,11 @@ h1, h2{
 .msg-resp{
     padding-block: 80px;
 }
+@media screen and (max-width:400px){
+    .navbar ul li {
+        display: none;
+    }
+}
 
 @media screen and (max-width:900px ){
     .navitems{
