@@ -25,21 +25,6 @@
 
     <title>Márcio Alex Freitas</title>
 </head>
-<script>
-    const redirect =() =>{
-    let contador = 5
-    setInterval(()=>{
-        contador -= 1
-        document.querySelector('.contador').innerHTML = contador
-        if(contador < 0){
-            clearInterval(interval)
-            window.location.href='https://alexfreitas.netlify.app/'
-        }
-        
-    },1000)
-}
-redirect()
-</script>
 
 <body>
     <!-- Botão do Whatsapp -->
@@ -71,7 +56,21 @@ redirect()
         </p>
     </footer>
     
- 
+    <script>
+        const redirect =() =>{
+        let contador = 5
+        setInterval(()=>{
+            contador -= 1
+            document.querySelector('.contador').innerHTML = contador
+            if(contador == 0){
+                clearInterval()
+                window.location.href='https://alexfreitas.netlify.app/'
+            }
+            
+        },1000)
+    }
+    window.onload = redirect
+    </script>
 
 
     <!-- Script Bootstrap -->
