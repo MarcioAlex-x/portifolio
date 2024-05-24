@@ -42,15 +42,27 @@ h1, h2{
 }
 #topo ul li{
     list-style: none;
-    margin-right: 30px;
+    margin-right: 8px;
     border: 2px solid var(--cor1);
     padding: 5px 10px;
     border-radius: 20px;
+    cursor: pointer;
+    transition: .7s;
+}
+#topo ul li:hover{
+    background-color: #7f21c2;
+    a{
+        color: white;
+    }
+}
+#topo a:hover{
+    color: white;
 }
 #topo a{
     color: black;
     text-decoration: none;
 }
+
 .formulario .btn, .site-container .btn{
     background-color: #A529FF;
     color: aliceblue;
@@ -71,6 +83,9 @@ h1, h2{
 }
 .whatsapp a:hover{
     color: rgb(4, 77, 4);
+}
+.msg-resp{
+    padding-block: 80px;
 }
 
 @media screen and (max-width:900px ){

@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <meta description="Alex Freitas, Engenheiro Front-End em João Pessoa-PB, Desenvolvedor de Sites e Instrutor de Programação e Instrutor de Desenvolvimento Web ">
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;900&display=swap" rel="stylesheet">
+    <!-- Css Local -->
+    <link rel="stylesheet" href="estilo.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Jquery -->
+    <script src="jquery-3.6.4.js"></script>
+    
+    <!-- Script -->
+    <script src="script.js"></script>
+    
+
+    <title>Márcio Alex Freitas</title>
+</head>
+<script>
+    const redirect =() =>{
+    let contador = 5
+    setInterval(()=>{
+        contador -= 1
+        document.querySelector('.contador').innerHTML = contador
+        if(contador < 0){
+            window.open('https://alexfreitas.netlify.app/', '_blank')
+            window.close()
+        }
+        
+    },1000)
+}
+redirect()
+</script>
+
+<body>
+    <!-- Botão do Whatsapp -->
+    <div class="whatsapp">
+        <a href="https://wa.me/+5583987657531">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+    </div>
+
+    <nav class="navbar" id="topo">
+        <img src="assets/Desenvolvedor web.png" alt="">
+        <ul>
+            <li><a href="index.html">Voltar</a></li>
+            <li><a target="_blank" href="https://www.linkedin.com/in/alex-freitas-eng-frontend/">Linkedin</a></li>
+            <li><a target="_blank" href="https://www.github.com/MarcioAlex-x">Github</a></li>
+            <li><a target="_blank" href="https://www.instagram.com/marcioalex586/">Instagram</a></li>
+        </ul>
+    </nav>
+
+    <div class="msg-resp ">
+        <h2 class="display-5 py-5 container">Sua mensagem foi recebida, logo entrarei em contato em resposta.</h2>
+        <p class="text-center">Estou te redirecionando de volta em <span class="contador">5</span> segundos</p>
+    </div>
+    
+
+    <footer class="py-5 ms-5" style="height: 80px;">
+        <p>
+            &copy; Todos os direitos reservado - Márcio Alex Freitas.
+        </p>
+    </footer>
+    
+ 
+
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="lista.js"></script>
+</body>
+
+</html>

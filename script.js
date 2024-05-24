@@ -1,5 +1,6 @@
 
 $(document).ready(()=>{   
+    
     function typeWriter(elemento){
         const textoArray = elemento.innerHTML.split('');
         elemento.innerHTML=''
@@ -11,4 +12,8 @@ $(document).ready(()=>{
     typeWriter(titulo)
 
     
+
 })
+
+
+    

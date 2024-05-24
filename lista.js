@@ -50,7 +50,11 @@ function criarElementos() {
         containerSite.classList.add('shadow')
         containerSite.classList.add('p-4')
     });
+
 }
 
 // Chamar a função para criar os elementos quando a página carregar
 window.addEventListener('load', criarElementos);
+
+
+
