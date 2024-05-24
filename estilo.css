@@ -48,6 +48,7 @@ h1, h2{
     border-radius: 20px;
     cursor: pointer;
     transition: .7s;
+    background-color: white;
 }
 #topo ul li:hover{
     background-color: #7f21c2;
