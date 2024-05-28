@@ -8,6 +8,7 @@ const sites = [
     {title:'Sorteador',url:'https://sorteador-grunt-alpha-blue.vercel.app/', desc:'Sorteador - Site criado para fins de estudo do curso de Engenheiro Fron-End EBAC'},
     {title:'Repositório',url:'https://alexfreitas.vercel.app/', desc:'Portifólio desenvolvido com a API do Github'},
     {title:'Palavra Secreta',url:'https://palavra-secreta-seven.vercel.app/', desc:'Jogo da palavra secreta'},
+    {title:'Git quem - Perfis do Github', url: 'https://gitquem.vercel.app/', desc: 'Buscador de usuários de repositórios no Github - Desenvolvido com React JS'}
 ]
 
 function criarElementos() {
